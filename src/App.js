@@ -15,13 +15,13 @@ function App() {
     <div className='container'>
    
 <Routes>
-<Route path='/' element={<Home/>}/>
+<Route path='news_app/' element={<Home/>}/>
   
-  <Route path='home' element={<Home/>}/>
-  <Route path='bussiness' element={<Bussiness/>}/>
-  <Route path='sports' element={<Sports/>}/>
-  <Route path='tecnology' element={<Tecnology/>}/>
-  <Route path='Parent' element={<Parent/>}/>
+  <Route path='news_app/home' element={<Home/>}/>
+  <Route path='news_app/bussiness' element={<Bussiness/>}/>
+  <Route path='news_app/sports' element={<Sports/>}/>
+  <Route path='news_app/tecnology' element={<Tecnology/>}/>
+  <Route path='news_app/Parent' element={<Parent/>}/>
   <Route path='*' element={<NotFound/>}/>
     </Routes>
     </div>
