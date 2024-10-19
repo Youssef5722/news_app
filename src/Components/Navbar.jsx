@@ -13,19 +13,19 @@ function Navbar() {
     <div className="collapse navbar-collapse d-flex align-top ps-10" id="navbarSupportedContent">
      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link " aria-current="page" to="home">Home</Link>
+          <Link className="nav-link " aria-current="page" to="news_app/home">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="bussiness">Bussiness</Link>
+          <Link className="nav-link" to="news_app/bussiness">Bussiness</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="sports">Sports</Link>
+          <Link className="nav-link" to="news_app/sports">Sports</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="tecnology">Tecnology</Link>
+          <Link className="nav-link" to="news_app/tecnology">Tecnology</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="Parent">Parent</Link>
+          <Link className="nav-link" to="news_app/Parent">Parent</Link>
         </li>
         
         
